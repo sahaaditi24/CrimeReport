@@ -1,6 +1,6 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import { FaDiscord } from 'react-icons/fa';
+import { FaCity } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -50,9 +50,11 @@ const Navbar = () => {
 
 
       <div className='pl-44'>
+        <a href="./Threedcity">
         <button className="flex items-center bg-green-500 text-black px-2 py-2 font-bold hover:bg-green-400">
-            <FaDiscord className="mr-2" /> Discord
+        <FaCity className='mr-1'/>  Explore 3D City 
         </button>
+        </a>
       </div>
     </header>
   )

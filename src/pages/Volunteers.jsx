@@ -42,10 +42,12 @@ const Home = () => {
               <img src='src\pages\Icon1.png' alt='icon1' className='w-full h-full object-contain' />
             </div>
             <div className='w-24 h-24 mr-4'>
-              <img src='src\pages\Icon2.png' alt='icon2' className='w-full h-full object-contain' />
+              <a href="/">
+              <img src='src\pages\Icon2.png' alt='icon2' className='w-full h-full object-contain' /></a>
             </div>
             <div className='w-24 h-24'>
-              <img src='src\pages\Icon3.png' alt='icon3' className='w-full h-full object-contain' />
+              <a href="./RealEstate">
+              <img src='src\pages\Icon3.png' alt='icon3' className='w-full h-full object-contain' /></a>
             </div>
         </div>
 
@@ -135,7 +137,7 @@ const Home = () => {
         </div>
 
           <div className='grid grid-cols-2 gap-3 pl-44'>
-            <div className='pl-10 pt-5'>
+            <div className='pl-10 pt-5 pb-10'>
               <div className='p-4 bg-white bg-opacity-5 backdrop-blur-md text-white w-[22rem] h-[22rem] rounded-3xl'>
                 <h2 className='text-3xl mb-2 pt-4 flex'><PiLineVerticalBold className='text-violet-800 size-14 -mt-4'/>Sustainable Investment Opportunities <img src="src\pages\Ellipse 1024.png" alt="" className='relative w-12 h-12'/> <img src="src\pages\Leaf.png" alt="" className='w-12 h-12 absolute inset-0 bg-no-repeat bg-cover ml-72 mt-8'/></h2>
                 <p className='text-gray-400 text-md pl-4 pt-6'>Invest in a variety of eco-friendly projects and initiatives. Our platform provides real-time updates and detailed analytics on the impact and returns of your investments.</p>

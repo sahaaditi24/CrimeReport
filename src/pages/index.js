@@ -5,5 +5,7 @@ import Road from './Road'
 import Plant from './Plant'
 import Threedcity from './Threedcity'
 import Volunteers from './Volunteers'
+import RealEstate from './RealEstate'
 
-export {Home, Water, Reportoffice, Road, Plant, Threedcity, Volunteers};
+
+export {Home, Water, Reportoffice, Road, Plant, Threedcity, Volunteers, RealEstate};
