@@ -10,7 +10,7 @@ const Home = () => {
         <div className='relative h-auto'>
           
             <img src="src\pages\Topbg.png" alt="tt" className='w-full h-full object-cover'/>
-            
+           
        </div>
 
        <div className='flex items-center justify-center transform -translate-y-1/4 pb-80'>
