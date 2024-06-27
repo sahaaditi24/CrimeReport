@@ -1,7 +1,7 @@
 import React from 'react'
 import {Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 import Navbar from './components/Navbar';
-import {Home, Water, Reportoffice, Road, Plant, Threedcity, Volunteers, RealEstate} from './pages';
+import {Home, Water, Reportoffice, Road, Plant, Threedcity, Volunteers, RealEstate, Reportcrime} from './pages';
 
 
 
@@ -20,6 +20,7 @@ const App = () => {
                 <Route path = '/Threedcity' element={<Threedcity/>} />
                 <Route path = '/Volunteers' element={<Volunteers/>} />
                 <Route path = '/RealEstate' element={<RealEstate/>} />
+                <Route path = '/Reportcrime' element={<Reportcrime/>} />
                 
                 
             </Routes>

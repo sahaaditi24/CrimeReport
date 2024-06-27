@@ -30,9 +30,12 @@ const Home = () => {
             <button className='bg-green-500 text-white text-sm px-6 py-2 rounded-md hover:bg-green-600'>
                 KNOW MORE
             </button>
+            
+            <a href="./Reportcrime">
             <button className='border border-green-500 text-green-500 text-sm px-6 py-2 rounded-md hover:bg-green-500 hover:text-white'>
                 REPORT A CRIME
             </button>
+            </a>
 
 
        </div>
