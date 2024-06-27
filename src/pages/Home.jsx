@@ -6,7 +6,7 @@ import { PiLineVerticalBold } from "react-icons/pi";
 const Home = () => {
   return (
     <>
-    <div className='pt-14 relative h-auto bg-[#040B11] w-auto' >
+    <div className='pt-14 relative h-auto bg-[#040B11] w-auto'>
         <div className='relative h-auto'>
           
             <img src="src\pages\Topbg.png" alt="tt" className='w-full h-full object-cover'/>
