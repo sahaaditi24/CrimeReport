@@ -8,6 +8,7 @@ const CrimeReportForm = () => {
   const [formData, setFormData] = useState({
     crime: '',
     crimeType: '',
+    description: '',
     crimePlace: '',
     district: '',
     pincode: '',
@@ -37,18 +38,20 @@ const CrimeReportForm = () => {
   };
 
   return (
-    <div className="max-w-full mx-auto mt-10 p-4 bg-[#040B11] shadow-md rounded-md">
+    <div className="max-w-full  bg-[#040B11] ">
       <div className='flex text-green-500 pb-6 ml-40'><FaGreaterThan/><FaGreaterThan/><FaGreaterThan/></div>
       <h2 className="text-2xl font-bold mb-8 text-white ml-40">Report A Crime</h2>
       <form onSubmit={handleSubmit}  className='-ml-16'>
         <div className='grid grid-cols-2 gap-5 px-56'>{[
           { label: 'Crime', name: 'crime' },
           { label: 'Crime Type', name: 'crimeType' },
+          { label: 'Crime Description', name: 'description' },
           { label: 'Crime Place', name: 'crimePlace' },
           { label: 'District', name: 'district' },
           { label: 'Pincode', name: 'pincode' },
           { label: 'FIR Number', name: 'firNumber' },
           { label: 'Aadhar Number', name: 'aadharNumber' }
+          
         ].map(({ label, name }) => (
           <div key={name} className="mb-4">
             <label htmlFor={name} className="block text-gray-300">{label}</label>

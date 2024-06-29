@@ -27,6 +27,7 @@ db.once('open', () => {
 const crimeReportSchema = new mongoose.Schema({
   crime: String,
   crimeType: String,
+  description: String,
   crimePlace: String,
   district: String,
   pincode: String,
@@ -45,11 +46,12 @@ const CrimeReport = mongoose.model('CrimeReport', crimeReportSchema);
 
 // Route to handle form submission
 app.post('/submit-crime-report', async (req, res) => {
-  const { crime, crimeType, crimePlace, district, pincode, firNumber, aadharNumber, userId } = req.body;
+  const { crime, crimeType,description, crimePlace, district, pincode, firNumber, aadharNumber, userId } = req.body;
 
   const newCrimeReport = new CrimeReport({
     crime,
     crimeType,
+    description,
     crimePlace,
     district,
     pincode,
