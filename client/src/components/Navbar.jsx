@@ -1,3 +1,4 @@
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 import { FaCity } from "react-icons/fa";
@@ -26,11 +27,6 @@ const Navbar = () => {
         </NavLink>
 
 
-        <NavLink to="./Threedcity" className = "items-center justify-center flex font-bold shadow-md pl-8"> 
-            <p className='text-white text-xs'>3D CITY</p>
-        </NavLink>
-
-
 
         <NavLink to="/" className = "items-center justify-center flex font-bold shadow-md pl-8"> 
             <p className='text-white text-xs'>REPORT</p>
@@ -38,7 +34,7 @@ const Navbar = () => {
 
 
         <NavLink to="./Volunteers" className = "items-center justify-center flex font-bold shadow-md pl-8"> 
-            <p className='text-white text-xs'>VOLUNTEER</p>
+            <p className='text-white text-xs'>FIND THE ROUTE</p>
         </NavLink>
 
 
@@ -50,11 +46,17 @@ const Navbar = () => {
 
 
       <div className='pl-44'>
-        <a href="./Threedcity">
-        <button className="flex items-center bg-green-500 text-black px-2 py-2 font-bold hover:bg-green-400">
-        <FaCity className='mr-1'/>  Explore 3D City 
-        </button>
-        </a>
+      <div>
+          <SignedOut>
+            <SignInButton className="ml-4 py-2 px-4 rounded bg-blue-500 text-white hover:bg-blue-600" />
+          </SignedOut>
+          <SignedIn>
+            <div className="flex space-x-4">
+              
+              <UserButton className="ml-4 py-2 px-4 rounded bg-blue-500 text-white hover:bg-blue-600" />
+            </div>
+          </SignedIn>
+        </div>
       </div>
     </header>
   )
