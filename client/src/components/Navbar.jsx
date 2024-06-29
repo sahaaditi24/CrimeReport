@@ -33,7 +33,7 @@ const Navbar = () => {
         </NavLink>
 
 
-        <NavLink to="./Volunteers" className = "items-center justify-center flex font-bold shadow-md pl-8"> 
+        <NavLink to="./Map" className = "items-center justify-center flex font-bold shadow-md pl-8"> 
             <p className='text-white text-xs'>FIND THE ROUTE</p>
         </NavLink>
 
