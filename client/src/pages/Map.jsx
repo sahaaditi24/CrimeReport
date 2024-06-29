@@ -56,15 +56,15 @@ const Map = () => {
 
         <div className='flex items-center justify-center space-x-4 pt-10 pb-20'>
 
-          <Link to = ''>
+          <Link to = '' target='_blank'>
             <button className='bg-green-500 text-white text-sm px-6 py-2 rounded-md hover:bg-green-600'>
                 FIND SAFEST PATH
             </button>
           </Link>
             
-            <Link to = ''>
+            <Link to = 'https://hitmap-crime.vercel.app/' target='_blank'>
             <button className='bg-green-500 text-white text-sm px-6 py-2 rounded-md hover:bg-green-600 w-40'>
-                HIT MAP
+                HEAT MAP
             </button>
             </Link>
 
