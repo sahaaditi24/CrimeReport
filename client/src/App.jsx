@@ -2,6 +2,8 @@ import React from 'react'
 import {Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import {Home, Volunteers, RealEstate, Reportcrime} from './pages';
+import Admin from './pages/Admin';
+
 
 
 
@@ -14,7 +16,7 @@ const App = () => {
             <Routes>
                 <Route path = '/' element={<Home/>} />    
                 
-                
+                <Route path='/admin' element={<Admin />} />
                 
                 <Route path = '/Volunteers' element={<Volunteers/>} />
                 <Route path = '/RealEstate' element={<RealEstate/>} />

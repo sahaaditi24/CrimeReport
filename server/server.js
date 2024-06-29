@@ -36,10 +36,11 @@ const crimeReportSchema = new mongoose.Schema({
   userId: String,
   status: {
     type: String,
-    enum: ['active', 'pending', 'solved'],
+    enum: ['active', 'pending', 'solved', 'false'],
     default: 'pending'
   }
 });
+
 
 
 const CrimeReport = mongoose.model('CrimeReport', crimeReportSchema);
@@ -83,12 +84,27 @@ app.patch('/crime-reports/:id', async (req, res) => {
   const { id } = req.params;
   const { status } = req.body;
 
-  if (!['active', 'pending', 'solved'].includes(status)) {
+  if (!['active', 'pending', 'solved', 'false'].includes(status)) {
     return res.status(400).send('Invalid status');
   }
 
   try {
     const updatedReport = await CrimeReport.findByIdAndUpdate(id, { status }, { new: true });
+    if (!updatedReport) {
+      return res.status(404).send('Crime report not found');
+    }
+    res.status(200).json(updatedReport);
+  } catch (error) {
+    res.status(500).send('Error updating crime report status');
+  }
+});
+
+
+app.patch('/crime-reports/:id/false', async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const updatedReport = await CrimeReport.findByIdAndUpdate(id, { status: 'false' }, { new: true });
     if (!updatedReport) {
       return res.status(404).send('Crime report not found');
     }
