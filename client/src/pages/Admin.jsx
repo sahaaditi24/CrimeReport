@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import CrimeReportPDF from '../components/CrimeReportPdf';
+
 
 const Admin = () => {
   const [crimeReports, setCrimeReports] = useState([]);
@@ -101,6 +103,7 @@ const Admin = () => {
                   False
                 </button>
               </div>
+              <CrimeReportPDF report={report} />
             </div>
           </div>
         ))}
