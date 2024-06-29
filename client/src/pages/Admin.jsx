@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { AiOutlineDownload } from 'react-icons/ai';
+import CrimeReportPDF from '../components/CrimeReportPdf';
+
 
 const Admin = () => {
   const [crimeReports, setCrimeReports] = useState([]);
@@ -29,31 +30,6 @@ const Admin = () => {
     }
   };
 
-  const downloadCSV = (report) => {
-    const csvData = convertToCSV(report);
-    const blob = new Blob([csvData], { type: 'text/csv;charset=utf-8;' });
-    const link = document.createElement('a');
-    const url = URL.createObjectURL(blob);
-    link.setAttribute('href', url);
-    link.setAttribute('download', `crime_report_${report._id}.csv`);
-    link.style.visibility = 'hidden';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
-  const convertToCSV = (report) => {
-    const keys = Object.keys(report);
-    const values = Object.values(report);
-
-    const csvContent = [
-      keys.join(','),
-      values.join(',')
-    ].join('\n');
-
-    return csvContent;
-  };
-
   const getStatusClass = (status) => {
     switch (status) {
       case 'active':
@@ -78,13 +54,7 @@ const Admin = () => {
       <h2 className="text-3xl font-bold py-8 text-center text-white">Admin Crime Reports</h2>
       <div className="flex flex-col space-y-6">
         {crimeReports.map((report) => (
-          <div key={report._id} className={`relative bg-gradient-to-r from-gray-800 via-gray-900 to-black shadow-lg rounded-lg overflow-hidden ${getCardClass(report.status)}`}>
-            <button
-              onClick={() => downloadCSV(report)}
-              className="absolute top-2 right-2 p-2 rounded-full bg-black/65 text-white hover:bg-black/25 transition-colors"
-            >
-              <AiOutlineDownload size={24} />
-            </button>
+          <div key={report._id} className={`bg-gradient-to-r from-gray-800 via-gray-900 to-black shadow-lg rounded-lg overflow-hidden ${getCardClass(report.status)}`}>
             <div className="p-6">
               <h3 className="text-2xl font-bold text-white mb-4">{report.crime}</h3>
               <div className="text-gray-400 mb-4">
@@ -133,6 +103,7 @@ const Admin = () => {
                   False
                 </button>
               </div>
+              <CrimeReportPDF report={report} />
             </div>
           </div>
         ))}
