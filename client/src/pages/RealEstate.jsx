@@ -26,7 +26,7 @@ const Home = () => {
             <h2 className='text-xs'>initiatives and watch your investments grow.</h2>
 
             <div className='flex space-x-4 items-center justify-center pt-8'>
-            <button className='bg-green-500 text-white text-sm px-6 py-2 rounded-md hover:bg-green-600'>
+            <button className='bg-green-500 text-[#040B11] text-sm px-6 py-2 rounded-md hover:bg-green-600 font-bold'>
                 KNOW MORE
             </button>
             <button className='border border-green-500 text-green-500 text-sm px-6 py-2 rounded-md hover:bg-green-500 hover:text-white'>
@@ -40,14 +40,14 @@ const Home = () => {
        <div className='flex justify-center mt-4'>
             <div className='w-24 h-24 mr-4'>
                 <a href="./Volunteers">
-              <img src='src\pages\Icon1.png' alt='icon1' className='w-full h-full object-contain' /></a>
+              <img src='.\public\Icon1.png' alt='icon1' className='w-full h-full object-contain' /></a>
             </div>
             <div className='w-24 h-24 mr-4'>
               <a href="/">
               <img src='src\pages\Icon2.png' alt='icon2' className='w-full h-full object-contain' /></a>
             </div>
             <div className='w-24 h-24'>
-              <img src='src\pages\Icon3.png' alt='icon3' className='w-full h-full object-contain' />
+              <img src='.\public\Icon3.png' alt='icon3' className='w-full h-full object-contain' />
             </div>
         </div>
 

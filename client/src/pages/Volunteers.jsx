@@ -21,16 +21,16 @@ const Home = () => {
        </div>
 
        <div className='absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 text-center text-white pt-16'>
-            <h1 className='text-3xl font-bold -mr-3'>EcoVolunteer : Volunteer for an event</h1>
-            <h2 className='text-xs pt-4'>Join volunteer events like river cleaning and tree planting. Earn tokens</h2>
-            <h2 className='text-xs'>for your contributions to the community.</h2>
+            <h1 className='text-3xl font-bold -mr-3'>SafetyZone Alerts:Know about hot-spots in your area</h1>
+            <h2 className='text-xs pt-4'>Instant safety notifications tailored to your location, keeping you </h2>
+            <h2 className='text-xs'>informed and secure wherever you go.</h2>
 
             <div className='flex space-x-4 items-center justify-center pt-8'>
-            <button className='bg-green-500 text-white text-sm px-6 py-2 rounded-md hover:bg-green-600'>
+            <button className='bg-green-500 text-[#040B11] text-sm px-6 py-2 rounded-md hover:bg-green-600 font-bold'>
                 KNOW MORE
             </button>
             <button className='border border-green-500 text-green-500 text-sm px-6 py-2 rounded-md hover:bg-green-500 hover:text-white'>
-                REPORT A CRIME
+                FLAG A REPORT
             </button>
 
 
@@ -39,7 +39,7 @@ const Home = () => {
 
        <div className='flex justify-center mt-4'>
             <div className='w-24 h-24 mr-4'>
-              <img src='src\pages\Icon1.png' alt='icon1' className='w-full h-full object-contain' />
+              <img src='.\public\Icon1.png' alt='icon1' className='w-full h-full object-contain' />
             </div>
             <div className='w-24 h-24 mr-4'>
               <a href="/">
@@ -47,7 +47,7 @@ const Home = () => {
             </div>
             <div className='w-24 h-24'>
               <a href="./RealEstate">
-              <img src='src\pages\Icon3.png' alt='icon3' className='w-full h-full object-contain' /></a>
+              <img src='.\public\Icon3.png' alt='icon3' className='w-full h-full object-contain' /></a>
             </div>
         </div>
 
