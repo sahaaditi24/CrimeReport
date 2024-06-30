@@ -19,7 +19,7 @@
    <h2> Technologies Used! 👨‍💻  </h2>
 
    <h3> 1. MERN stack </h3>
-   <h3> 2. Avalanche</h3>
+   <h3> 2. Avalanche</h3> #avalanche
    <h3> 3. AIML- Python, Numpy, Pandas </h3>
    <h3> 4. Solidity </h3>
 
@@ -36,7 +36,10 @@
 
    <h2> Procedure to run the Project :</h2>
    <h3> Git Clone - https://github.com/sahaaditi24/CrimeReport.git</h3> 
+   <h3> cd client // to move into the directory </h3>
    <h3> Starting script for FrontEnd and BackEnd - npm run dev </h3>
+
+   
    
    
 
