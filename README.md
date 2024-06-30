@@ -35,7 +35,8 @@
    <h3>Our real-time crime reporting and analysis platform, designed with features to keep communities informed and safe. Our platform boasts a user-friendly interface that ensures easy navigation and seamless access to vital information. Whether you're concerned about your neighborhood or planning a trip across town, our system provides up-to-the-minute crime data and detailed analysis to help you stay aware of your surroundings. With our platform, you'll find it easy to locate and understand crime trends, report incidents, and receive alerts about potential safety concerns in your area. Stay connected and secure with our comprehensive and intuitive crime reporting solution.</h3>
 
    <h2> Procedure to run the Project :</h2>
-   <h3> Git Clone -</h3>   
+   <h3> Git Clone - https://github.com/sahaaditi24/CrimeReport.git</h3> 
+   <h3> Starting script for FrontEnd and BackEnd - npm run dev </h3>
    
    
 
