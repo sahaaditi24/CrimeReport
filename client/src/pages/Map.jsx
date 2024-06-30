@@ -56,7 +56,7 @@ const Map = () => {
 
         <div className='flex items-center justify-center space-x-4 pt-10 pb-20'>
 
-          <Link to = '' target='_blank'>
+          <Link to = 'http://localhost:4000/' target='_blank'>
             <button className='bg-green-500 text-white text-sm px-6 py-2 rounded-md hover:bg-green-600'>
                 FIND SAFEST PATH
             </button>
