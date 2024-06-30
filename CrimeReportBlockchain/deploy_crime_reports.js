@@ -11,7 +11,7 @@ const contractABI = CrimeReport.abi;
 const contractBytecode = CrimeReport.bytecode;
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://admin:admin123@ac-nyxo4g5.kiqprjm.mongodb.net/yourDatabaseName?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongo', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const crimeReportSchema = new mongoose.Schema({
     crime: String,
