@@ -1,15 +1,14 @@
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import { FaCity } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <header className='fixed top-0 left-0 w-full flex pl-36 p-3 z-50 items-center rounded-b-2xl' style={{ backgroundColor: '#040B11' }}>
 
       <div className='pr-36 pl-16'>
-        <NavLink to="/" className = "items-center justify-center flex font-bold shadow-md"> 
-            <p className='text-white'>LOGO</p>
+        <NavLink to="/" className = "items-center justify-center font-bold shadow-md flex"> 
+            <img src="./public/Logoo.png" alt="" className="pr-2"/><p className='text-white text-xl mt-1'>D-CRIME</p>
         </NavLink>
       </div>
 
@@ -28,7 +27,7 @@ const Navbar = () => {
 
 
 
-        <NavLink to="/" className = "items-center justify-center flex font-bold shadow-md pl-8"> 
+        <NavLink to="/Reportcrime" className = "items-center justify-center flex font-bold shadow-md pl-8"> 
             <p className='text-white text-xs'>REPORT</p>
         </NavLink>
 
