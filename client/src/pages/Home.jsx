@@ -138,8 +138,8 @@ const Home = () => {
 
 
             <div className='p-4 bg-white bg-opacity-5 backdrop-blur-md text-white w-[22rem] h-[22rem] rounded-3xl'>
-              <h2 className='text-3xl mb-2 pt-4 flex'><PiLineVerticalBold className='text-yellow-400 size-10 -mt-1'/> Community volunteering <img src="src\pages\Ellipse 1024.png" alt="" className='relative w-12 h-12'/><img src="src\pages\World Markets.png" alt="" className='w-12 h-12 absolute inset-0 bg-no-repeat bg-cover ml-72 mt-8'/></h2>
-              <p className='text-gray-400 text-md pl-4 pt-6'>Participate in local environmental and social projects, such as river clean-ups and tree planting. Earn tokens for your contributions and see the tangible impact of your efforts.</p>
+              <h2 className='text-3xl mb-2 pt-4 flex'><PiLineVerticalBold className='text-yellow-400 size-10 -mt-1'/>Hit-spot Alerts: <img src="src\pages\Ellipse 1024.png" alt="" className='relative w-12 h-12'/><img src="src\pages\World Markets.png" alt="" className='w-12 h-12 absolute inset-0 bg-no-repeat bg-cover ml-72 mt-8'/></h2>
+              <p className='text-gray-400 text-md pl-4 pt-6'>Receive real-time alerts about crime hit-spots in your area to stay informed and safe.Get notified of potential dangers and take necessary precautions to protect yourself.</p>
             </div>
             
         </div>
@@ -147,16 +147,17 @@ const Home = () => {
           <div className='grid grid-cols-2 gap-3 pl-44'>
             <div className='pl-10 pt-5 pb-10'>
               <div className='p-4 bg-white bg-opacity-5 backdrop-blur-md text-white w-[22rem] h-[22rem] rounded-3xl'>
-                <h2 className='text-3xl mb-2 pt-4 flex'><PiLineVerticalBold className='text-violet-800 size-14 -mt-4'/>Sustainable Investment Opportunities <img src="src\pages\Ellipse 1024.png" alt="" className='relative w-12 h-12'/> <img src="src\pages\Leaf.png" alt="" className='w-12 h-12 absolute inset-0 bg-no-repeat bg-cover ml-72 mt-8'/></h2>
+                <h2 className='text-3xl mb-2 pt-4 flex'><PiLineVerticalBold className='text-violet-800 size-14 -mt-4'/>Safe Route Planner<img src="src\pages\Ellipse 1024.png" alt="" className='relative w-12 h-12'/> <img src="src\pages\Leaf.png" alt="" className='w-12 h-12 absolute inset-0 bg-no-repeat bg-cover ml-72 mt-8'/></h2>
                 <p className='text-gray-400 text-md pl-4 pt-6'>Invest in a variety of eco-friendly projects and initiatives. Our platform provides real-time updates and detailed analytics on the impact and returns of your investments.</p>
               </div>
             </div>
             <div className='pb-10 -mt-6'>
             <div className='p-4 bg-white bg-opacity-5 backdrop-blur-md text-white w-[22rem] h-[22rem] rounded-3xl'>
-              <h2 className='text-3xl mb-2 pt-4 flex'><PiLineVerticalBold className='text-green-500 -mt-1'/>Direct Donations <img src="src\pages\Ellipse 1024.png" alt="" className='relative w-12 h-12'/> <img src="src\pages\Donation.png" alt="" className='w-10 h-10 absolute inset-0 bg-no-repeat bg-cover ml-72 mt-8'/></h2>
-              <p className='text-gray-400 text-md pl-4 pt-6'>Support NGOs and causes directly through our platform. Benefit from full transparency on how your donations are used and witness the positive changes they bring.</p>
-              <p className='text-2xl pl-4 mt-4'>$0.001</p>
-              <p className='text-green-500 text-md pl-4'>for each donation made</p>
+              <h2 className='text-3xl mb-2 pt-4 flex'><PiLineVerticalBold className='text-green-500 -mt-1'/>Community Insights: <img src="src\pages\Ellipse 1024.png" alt="" className='relative w-12 h-12'/> <img src="src\pages\Donation.png" alt="" className='w-10 h-10 absolute inset-0 bg-no-repeat bg-cover ml-72 mt-8'/></h2>
+              <p className='text-gray-400 text-md pl-4 pt-6'>Access comprehensive data on crime trends and hot-spots in your community.
+              Stay aware of local crime statistics to make informed decisions about your safety.</p>
+              <p className='text-2xl pl-4 mt-4'>45%</p>
+              <p className='text-green-500 text-md pl-4'>crime rates reduced</p>
             </div>
           </div>
           </div>
