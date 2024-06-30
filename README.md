@@ -40,7 +40,8 @@
    <h3> Starting script for FrontEnd and BackEnd - npm run dev </h3>
 
    
-   
+   Wallet address: 0xC22205411Ab99FaA100252163B24205a76fe8d66
+   avalanche block : 0x7423B78b1B267CFe9398A34046F6D7b2B64B6435
    
 
    
