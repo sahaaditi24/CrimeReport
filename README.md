@@ -23,7 +23,7 @@
    <h3> 3. AIML- Python, Numpy, Pandas </h3>
    <h3> 4. Solidity </h3>
 
-   <h2> Need for D-Crime </h2>
+   <h2> Need for D-Crime 👉🏻</h2>
 
    <h3> 1. Rising crime rates in urban areas </h3>
    <h3> 2. Lack of real-time crime information for residents</h3>
@@ -31,8 +31,8 @@
    <h3> 4. economic disparities, leading to increased theft, violence, and gang activities.</h3>
    <h3> 5. Need for safe travel routes in high-crime areas </h3>
 
-   <h2> Our Solution </h2>
-   <p>Our real-time crime reporting and analysis platform, designed with features to keep communities informed and safe. Our platform boasts a user-friendly interface that ensures easy navigation and seamless access to vital information. Whether you're concerned about your neighborhood or planning a trip across town, our system provides up-to-the-minute crime data and detailed analysis to help you stay aware of your surroundings. With our platform, you'll find it easy to locate and understand crime trends, report incidents, and receive alerts about potential safety concerns in your area. Stay connected and secure with our comprehensive and intuitive crime reporting solution.</p>
+   <h2> Our Solution! ✅</h2>
+   <h3>Our real-time crime reporting and analysis platform, designed with features to keep communities informed and safe. Our platform boasts a user-friendly interface that ensures easy navigation and seamless access to vital information. Whether you're concerned about your neighborhood or planning a trip across town, our system provides up-to-the-minute crime data and detailed analysis to help you stay aware of your surroundings. With our platform, you'll find it easy to locate and understand crime trends, report incidents, and receive alerts about potential safety concerns in your area. Stay connected and secure with our comprehensive and intuitive crime reporting solution.</h3>
    
    
    
