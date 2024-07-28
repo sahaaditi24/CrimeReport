@@ -9,17 +9,20 @@
    <hr>
 
    <h2> Features 🚀</h2>
-   <h3> 1. Crime Tracer </h3>
-   <h3> 2. HitSpotter </h3>
-   <h3> 3. SafeZone Alert </h3>
-   <h3> 4. Router Space </h3>
+   <h3> 1. Crime Tracker </h3>
+   <h3> 2. HotSpotter </h3>
+   <h3> 3. RouteGuard </h3>
+   <h3> 4. SOS + Location </h3>
+   <h3> 5. Nearby Police Ping </h3>
+   <h3> 6. Watson RAG Bot </h3>
+   <h3> 7. . </h3>
 
    <hr>
 
    <h2> Technologies Used! 👨‍💻  </h2>
 
    <h3> 1. MERN stack </h3>
-   <h3> 2. Avalanche</h3> #avalanche
+   <h3> 2. Blockchain - Ethereum</h3>
    <h3> 3. AIML- Python, Numpy, Pandas </h3>
    <h3> 4. Solidity </h3>
 
@@ -32,7 +35,8 @@
    <h3> 5. Need for safe travel routes in high-crime areas </h3>
 
    <h2> Our Solution! ✅</h2>
-   <h3>Our real-time crime reporting and analysis platform, designed with features to keep communities informed and safe. Our platform boasts a user-friendly interface that ensures easy navigation and seamless access to vital information. Whether you're concerned about your neighborhood or planning a trip across town, our system provides up-to-the-minute crime data and detailed analysis to help you stay aware of your surroundings. With our platform, you'll find it easy to locate and understand crime trends, report incidents, and receive alerts about potential safety concerns in your area. Stay connected and secure with our comprehensive and intuitive crime reporting solution.</h3>
+   <h3>Our real-time crime reporting and analysis platform, designed with features to keep communities informed and safe. Our platform boasts a user-friendly interface that ensures easy navigation and seamless access to vital information. Whether you're concerned about your neighborhood or planning a trip across different cities
+      , our system provides up-to-the-minute crime data and detailed analysis to help you stay aware of your surroundings. With our platform, you'll find it easy to locate and understand crime trends, report incidents, and receive alerts about potential safety concerns in your area. Stay connected and secure with our comprehensive and intuitive crime reporting solution.</h3>
 
    <h2> Procedure to run the Project :</h2>
    <h3> Git Clone - https://github.com/sahaaditi24/CrimeReport.git</h3> 
