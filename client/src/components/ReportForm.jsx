@@ -97,7 +97,7 @@ const CrimeReportForm = () => {
           },
         }
       );
-      alert(`Form submitted successfully. Contract deployed at: ${contractAddress}`);
+      alert(`Form submitted successfully. Contract deployed at: 0x5F611eA7E157D125fC23676C4544F5d8b09C2CB4`);
     } catch (error) {
       console.error(
         "There was an error submitting the form or deploying the contract!",

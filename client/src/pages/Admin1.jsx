@@ -5,6 +5,8 @@ import { FaGreaterThan } from "react-icons/fa6";
 import { MdLocalPolice } from "react-icons/md";
 import { IoMdNotifications } from "react-icons/io";
 import { IoRadioButtonOn } from "react-icons/io5";
+import { FaDownload } from 'react-icons/fa';
+import Map from "../components/Map"
 import axios from "axios";
 
 const Admin1 = () => {
@@ -108,8 +110,8 @@ const Admin1 = () => {
         </div>
 
         <div className="flex">
-          <div className="pt-4 pl-28">
-            <img src=".\public\adminmap.png" alt="" />
+          <div className="pt-4 pl-28 w-[1000px]">
+            <Map />
           </div>
 
           <div className="relative h-auto pl-10">
