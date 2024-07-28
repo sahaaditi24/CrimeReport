@@ -9,17 +9,32 @@
    <hr>
 
    <h2> Features 🚀</h2>
-   <h3> 1. Crime Tracer </h3>
-   <h3> 2. HitSpotter </h3>
-   <h3> 3. SafeZone Alert </h3>
-   <h3> 4. Router Space </h3>
+   <h3> 1. Crime Reporting </h3>
+   <h4>Report crimes and gather evidence easily, geotag crime locations for accurate mapping.</h4>
+   <h3> 2. HotSpotter </h3>
+   <h4>Identify and flag crime hotspots . Visual representation of hotspots on the map and helps authorities and residents stay vigilant.</h4>
+
+   <h3> 3. RouteGuard - Safest Path</h3>
+   <h4>anlyzing crime rates along user-specified routes and provide detailed crime density information. Also suggest alternative routes with lower crime rates for safer travel.</h4>
+
+   <h3> 4. SOS + Location </h3>
+   <h4>Sends an SOS alert during emergencies and transmits the live location to the police    
+    dashboard</h4> 
+   <h3> 5. Nearby Police Ping </h3>
+   <h4>Identifies nearby police units to the SOS call location and assigns them for immediate 
+   response.</h4>
+   <h3> 6. Watson RAG Bot </h3>
+   <h4>Watson RAG Bot retrieves historical crime data to identify patterns and assists    
+   investigators by highlighting important details during case solving.</h4>
+   <h3> 7. Predictive Policing </h3>
+   <h4>Predictive Policing forecasts crime hotspots using ML-K-means clustering to enhance safety and prevent incidents.</h4>
 
    <hr>
 
    <h2> Technologies Used! 👨‍💻  </h2>
 
    <h3> 1. MERN stack </h3>
-   <h3> 2. Avalanche</h3> #avalanche
+   <h3> 2. Blockchain - Ethereum</h3>
    <h3> 3. AIML- Python, Numpy, Pandas </h3>
    <h3> 4. Solidity </h3>
 
@@ -32,7 +47,8 @@
    <h3> 5. Need for safe travel routes in high-crime areas </h3>
 
    <h2> Our Solution! ✅</h2>
-   <h3>Our real-time crime reporting and analysis platform, designed with features to keep communities informed and safe. Our platform boasts a user-friendly interface that ensures easy navigation and seamless access to vital information. Whether you're concerned about your neighborhood or planning a trip across town, our system provides up-to-the-minute crime data and detailed analysis to help you stay aware of your surroundings. With our platform, you'll find it easy to locate and understand crime trends, report incidents, and receive alerts about potential safety concerns in your area. Stay connected and secure with our comprehensive and intuitive crime reporting solution.</h3>
+   <h3>Our real-time crime reporting and analysis platform, designed with features to keep communities informed and safe. Our platform boasts a user-friendly interface that ensures easy navigation and seamless access to vital information. Whether you're concerned about your neighborhood or planning a trip across different cities
+      , our system provides up-to-the-minute crime data and detailed analysis to help you stay aware of your surroundings. With our platform, you'll find it easy to locate and understand crime trends, report incidents, and receive alerts about potential safety concerns in your area. Stay connected and secure with our comprehensive and intuitive crime reporting solution.</h3>
 
    <h2> Procedure to run the Project :</h2>
    <h3> Git Clone - https://github.com/sahaaditi24/CrimeReport.git</h3> 
