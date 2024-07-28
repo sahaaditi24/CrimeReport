@@ -5,17 +5,59 @@ import { FaGreaterThan } from "react-icons/fa6";
 import { MdLocalPolice } from "react-icons/md";
 import { IoMdNotifications } from "react-icons/io";
 import { IoRadioButtonOn } from "react-icons/io5";
+import axios from "axios";
 
 const Admin1 = () => {
   const [selectedState, setSelectedState] = useState("");
+  const [message, setMessage] = useState("");
+  const [watchId, setWatchId] = useState(null);
 
   const handleStateChange = (event) => {
     setSelectedState(event.target.value);
   };
 
-  const handleClick = () => {
-    // Handle the click event
-    //alert('Alert image clicked!');
+  const handleStartSOS = () => {
+    if ("geolocation" in navigator) {
+      const id = navigator.geolocation.watchPosition(
+        async (position) => {
+          const { latitude, longitude } = position.coords;
+          const location = `Latitude: ${latitude}, Longitude: ${longitude}`;
+
+          try {
+            const response = await axios.post(
+              "http://localhost:3000/send-sos",
+              { location }
+            );
+            setMessage("SOS sent successfully");
+            console.log(response.data);
+          } catch (error) {
+            setMessage("Error sending SOS");
+            console.error("Error sending SOS:", error);
+          }
+        },
+        (error) => {
+          console.error("Error getting location:", error);
+          setMessage("Could not get location. Please try again.");
+        },
+        {
+          enableHighAccuracy: true,
+          maximumAge: 0,
+          timeout: 5000,
+        }
+      );
+      setWatchId(id);
+      setMessage("SOS tracking started");
+    } else {
+      setMessage("Geolocation is not supported by this browser.");
+    }
+  };
+
+  const handleStopSOS = () => {
+    if (watchId !== null) {
+      navigator.geolocation.clearWatch(watchId);
+      setWatchId(null);
+      setMessage("SOS tracking stopped");
+    }
   };
   return (
     <>
@@ -89,20 +131,27 @@ const Admin1 = () => {
                       Location: Near Karumanmoyee
                     </h1>
                   </div>
-
-                  <button
-                    onClick={handleClick}
-                    className="flex items-center space-x-2 p-2 rounded bg-gray-800 hover:bg-gray-700 transition duration-300 ml-4"
+                  <a
+                    href="https://smssend.onrender.com/send-sms"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <img
-                      src="./public/alert.png"
-                      alt="Alert"
-                      className="w-6 h-6"
-                    />
-                    <h1 className="text-gray-500 text-xs">PING</h1>
-                  </button>
+                    <button
+                      onClick={handleStartSOS}
+                      className="flex items-center space-x-2 p-2 rounded bg-gray-800 hover:bg-gray-700 transition duration-300 ml-4"
+                    >
+                      <img
+                        src="./public/alert.png"
+                        alt="Alert"
+                        className="w-6 h-6"
+                      />
+                      <h1 className="text-gray-500 text-xs">PING</h1>
+                    </button>
+                  </a>
 
-                  <IoRadioButtonOn className="text-gray-400 mt-2" />
+                  <button onClick={handleStopSOS}>
+                    <IoRadioButtonOn className="text-gray-400 mt-2" />
+                  </button>
                 </div>
               ))}
             </div>
