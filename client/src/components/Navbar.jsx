@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <header className='fixed top-0 left-0 w-full flex pl-36 p-3 z-50 items-center rounded-b-2xl' style={{ backgroundColor: '#040B11' }}>
+    <header className='fixed top-0 left-0 w-full flex pl-16 p-3 z-50 items-center rounded-b-2xl' style={{ backgroundColor: '#040B11' }}>
 
       <div className='pr-36 pl-16'>
         <NavLink to="/" className = "items-center justify-center font-bold shadow-md flex"> 
@@ -39,6 +39,10 @@ const Navbar = () => {
 
         <NavLink to="/" className = "items-center justify-center flex font-bold shadow-md pl-8"> 
             <p className='text-white text-xs'>FAQ</p>
+        </NavLink>
+
+        <NavLink to="/Admin1" className = "items-center justify-center flex font-bold shadow-md pl-8"> 
+            <p className='text-white text-xs'>ADMIN</p>
         </NavLink>
 
         </div>
