@@ -8,6 +8,7 @@ import Admin from './pages/Admin';
 
 
 
+
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
@@ -22,6 +23,7 @@ const App = () => {
                 <Route path = '/RealEstate' element={<RealEstate/>} />
                 <Route path = '/Reportcrime' element={<Reportcrime/>} />
                 <Route path = '/Map' element={<Map/>} />
+              
                 
                 
             </Routes>
