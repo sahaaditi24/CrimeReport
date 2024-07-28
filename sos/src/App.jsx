@@ -14,7 +14,7 @@ const SOSForm = () => {
 
           try {
             const response = await axios.post(
-              "http://localhost:3000/send-sos",
+              "https://sos-backend-76iy.onrender.com/send-sos",
               { location }
             );
             setMessage("SOS sent successfully");

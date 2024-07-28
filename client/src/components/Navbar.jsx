@@ -13,7 +13,7 @@ const Navbar = () => {
       className="fixed top-0 left-0 w-full flex pl-16 p-3 z-50 items-center rounded-b-2xl"
       style={{ backgroundColor: "#040B11" }}
     >
-      <div className="pr-36 pl-16">
+      <div className="pr-20 pl-14">
         <NavLink
           to="/"
           className="items-center justify-center font-bold shadow-md flex"
@@ -66,6 +66,15 @@ const Navbar = () => {
         >
           <p className="text-white text-xs">ADMIN</p>
         </NavLink>
+
+
+        <Link
+          to="https://crime-prediction-ivory.vercel.app/"
+          target="_blank"
+          className="items-center justify-center flex font-bold shadow-md pl-8"
+        >
+          <p className="text-white text-xs">PRED-POLL</p>
+        </Link>
       </div>
 
       <div className="pl-44">
