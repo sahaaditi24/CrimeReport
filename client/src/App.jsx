@@ -8,6 +8,7 @@ import Admin from './pages/Admin';
 
 
 
+
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
