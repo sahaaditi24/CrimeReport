@@ -9,13 +9,25 @@
    <hr>
 
    <h2> Features 🚀</h2>
-   <h3> 1. Crime Tracker </h3>
+   <h3> 1. Crime Reporting </h3>
+   #Report crimes and gather evidence easily, geotag crime locations for accurate mapping.
    <h3> 2. HotSpotter </h3>
-   <h3> 3. RouteGuard </h3>
+   #Identify and flag crime hotspots . Visual representation of hotspots on the map and helps       authorities and residents stay vigilant.
+
+   <h3> 3. RouteGuard - Safest Path</h3>
+   #nalyzing crime rates along user-specified routes and provide detailed crime density             information. Also suggest alternative routes with lower crime rates for safer travel.
+
    <h3> 4. SOS + Location </h3>
+   #Sends an SOS alert during emergencies and transmits the live location to the police       
+    dashboard
    <h3> 5. Nearby Police Ping </h3>
+   #Identifies nearby police units to the SOS call location and assigns them for immediate 
+   response.
    <h3> 6. Watson RAG Bot </h3>
+   #Watson RAG Bot retrieves historical crime data to identify patterns and assists    
+   investigators by highlighting important details during case solving.
    <h3> 7. Predictive Policing </h3>
+   #Predictive Policing forecasts crime hotspots using ML-K-means clustering to enhance safety and prevent incidents.
 
    <hr>
 
